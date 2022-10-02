@@ -1,0 +1,752 @@
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: 'Alegreya Sans', 'sans-serif';
+            width: 100%;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        .clr {
+            clear: both;
+        }
+        
+        li {
+            list-style: none;
+        }
+        /*start section home*/
+        
+        .home {
+            background-image: url("../image/drew-coffman-1872.jpg");
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .home .all {
+            text-align: center;
+            color: aliceblue;
+            margin-top: 15%;
+        }
+        
+        .home .all p {
+            font-size: 22px;
+            line-height: 1.5;
+        }
+        
+        .home .all h1 {
+            font-size: 75px;
+            margin: 15px 0;
+        }
+        
+        .home .all .btn {
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            width: 10%;
+        }
+        
+        .home .all .learn {
+            background-color: #8e7754;
+            border: 1px solid #8e7754;
+        }
+        
+        .home .all .cont {
+            background-color: transparent;
+            border: 1px solid;
+        }
+        /*end section home*/
+        /*start section who*/
+        
+        .who {
+            background-color: #fff;
+            overflow: hidden;
+        }
+        
+        .who .two {
+            margin: 15px 20px;
+            padding: 30px 40px;
+        }
+        
+        .who .two .word {
+            width: 50%;
+            float: left;
+            padding: 50px;
+        }
+        
+        .who .two .word .part1 {
+            margin: 15px 0;
+            line-height: 1.8;
+        }
+        
+        .who .two .word .part1 h2 {
+            font-size: 40px;
+        }
+        
+        .who .two .word .part1 p {
+            font-size: 18px;
+        }
+        
+        .who .two .word .part2 {
+            margin-top: 20px;
+            line-height: 3.5;
+        }
+        
+        .who .two .word .part2 .icons i {
+            font-size: 30px;
+            display: initial;
+        }
+        
+        .who .two .word .part2 .icons .te {
+            margin-left: 30px;
+            font-size: 20px;
+        }
+        /*end section who*/
+        /*start section location*/
+        
+        .location {
+            background-color: rgba(139, 131, 131, 0.1);
+            overflow: hidden;
+        }
+        
+        .location .three {
+            width: 50%;
+            float: left;
+            margin: auto;
+        }
+        
+        .location .three .loc {
+            margin: 20px 30px;
+            padding: 30px 40px;
+            line-height: 1.8;
+            float: left;
+        }
+        
+        .location .three .loc h2 {
+            font-size: 30px;
+        }
+        
+        .location .three .loc p {
+            font-size: 16px;
+            color: #686868;
+            margin-top: 30px;
+        }
+        
+        .location .three .loc img {
+            width: 50%;
+        }
+        /*end section location*/
+        /*start section  Our Baking*/
+        
+        .products {
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .products .four .text {
+            text-align: center;
+            margin-top: 70px;
+            line-height: 2;
+        }
+        
+        .products .four .text .title {
+            font-size: 30px;
+        }
+        
+        .products .four .text .descrip {
+            font-size: 18px;
+        }
+        
+        .products .four .threediv {
+            width: 85%;
+            margin: auto;
+            margin-top: 20px;
+        }
+        
+        .products .four .threediv .type {
+            width: 33.333%;
+            padding: 20px;
+            text-align: center;
+            line-height: 1.8;
+            float: left;
+        }
+        /*end section  Our Baking*/
+        /*start section Contact Information*/
+        
+        .information {
+            background-color: rgba(139, 131, 131, 0.1);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .information .five .taxt1 {
+            margin: 5% 8%;
+            width: 45%;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        
+        .information .five .taxt1 .titlteinfor {
+            font-size: 40px;
+        }
+        
+        .information .five .taxt1 .paragr {
+            font-size: 17px;
+            margin-top: 20px;
+        }
+        
+        .information .five .taxt1 .details {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        
+        .information .five .taxt2 {
+            margin: 5% 9%;
+            line-height: 2.8;
+        }
+        
+        .information .five .taxt2 .icons2 i {
+            font-size: 30px;
+            display: initial;
+        }
+        
+        .information .five .taxt2 .icons2 .tex {
+            margin-left: 30px;
+            font-size: 20px;
+        }
+        /*end section Contact Information*/
+        /* start page about*/
+        /* start firsr section*/
+        
+        .about {
+            background-image: url("../image/drew-coffman-1872.jpg");
+            background-position: bottom;
+            height: 40vh;
+            overflow: hidden;
+        }
+        
+        .about .half {
+            text-align: center;
+            color: aliceblue;
+            margin-top: 5%;
+        }
+        
+        .about .half span {
+            padding: 0 14px;
+            color: #403d38;
+        }
+        
+        .about .half p {
+            font-size: 40px;
+            line-height: 1.5;
+        }
+        
+        .about .half h1 {
+            font-size: 75px;
+            margin: 15px 0;
+        }
+        /*end frist section*/
+        /*start second section*/
+        
+        .about2 {
+            background-color: #fff;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .about2 .twopart {
+            margin: 15px 20px;
+            padding: 30px 40px;
+        }
+        
+        .about2 .twopart .pic {
+            width: 50%;
+            float: left;
+            padding: 80px;
+        }
+        
+        .about2 .twopart .words {
+            margin: 10% 50%;
+        }
+        
+        .about2 .twopart .words .half1,
+        .half2 {
+            margin: 15px 0;
+            line-height: 1.8;
+        }
+        
+        .about2 .twopart .words .story {
+            font-size: 40px;
+        }
+        
+        .about2 .twopart .words .half1,
+        .half2 {
+            font-size: 20px;
+        }
+        /*end second section*/
+        /* start thired section*/
+        
+        .about3 {
+            background-color: rgba(139, 131, 131, 0.1);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .about3 .bigdiv .divtitle {
+            width: 85%;
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
+            line-height: 1.8;
+        }
+        
+        .about3 .bigdiv .divtitle i {
+            font-size: 25px;
+        }
+        
+        .about3 .bigdiv .divtitle .why {
+            font-size: 30px;
+        }
+        
+        .about3 .bigdiv .divtitle .dicption {
+            font-size: 18px;
+        }
+        
+        .about3 .bigdiv .subdiv {
+            margin: auto;
+            line-height: 1.2;
+            padding: 30px;
+        }
+        
+        .about3 .bigdiv .subdiv .halfpart1 {
+            width: 95%;
+            margin: auto;
+            margin-top: 40px;
+            padding: 10px;
+        }
+        
+        .about3 .bigdiv .subdiv .halfpart1 .partdiv {
+            width: 33.333%;
+            float: left;
+            line-height: 1.8;
+        }
+        
+        .about3 .bigdiv .subdiv .halfpart1 .partdiv .why1 {
+            font-size: 25px;
+        }
+        
+        .about3 .bigdiv .subdiv .halfpart1 .partdiv .dicptions {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        
+        .about3 .bigdiv .subdiv .halfpart2 {
+            width: 95%;
+            margin: auto;
+            margin-top: 15%;
+            padding: 10px;
+        }
+        
+        .about3 .bigdiv .subdiv .halfpart2 .partdiv {
+            width: 33.333%;
+            float: left;
+            line-height: 1.8;
+        }
+        
+        .about3 .bigdiv .subdiv .halfpart2 .partdiv .why1 {
+            font-size: 25px;
+        }
+        
+        .about3 .bigdiv .subdiv .halfpart2 .partdiv .dicptions {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        /* end thired section*/
+        /*start four sec*/
+        
+        .count {
+            background-color: #8e7754;
+            background-attachment: fixed;
+            background-size: auto;
+            background-position: center;
+            height: 40vh;
+            overflow: hidden;
+        }
+        
+        .count .cont {
+            width: 85%;
+            margin: auto;
+            margin-top: 50px;
+        }
+        
+        .count .cont .cont1 {
+            width: 20%;
+            float: left;
+            font-size: 40px;
+            margin: 20px 30px;
+            text-align: center;
+        }
+        /*end four sec*/
+        /* end page about*/
+        /*start page offer*/
+        /*start frist section*/
+        
+        .offer {
+            background-image: url("../image/drew-coffman-1872.jpg");
+            background-position: center;
+            overflow: hidden;
+        }
+        
+        .offer .half5 {
+            text-align: center;
+            color: aliceblue;
+            margin-top: 10%;
+        }
+        
+        .offer .half5 span {
+            padding: 0 14px;
+            color: #403d38;
+        }
+        
+        .offer .half5 p {
+            font-size: 40px;
+            line-height: 1.5;
+        }
+        
+        .offer .half5 h1 {
+            font-size: 75px;
+            margin: 10px 0;
+        }
+        /*end frist section*/
+        /* start secound section*/
+        
+        .offer2 {
+            background-color: #fff;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            height: 150vh;
+            overflow: hidden;
+        }
+        
+        .offer2 .Bigdiv {
+            width: 90%;
+            margin: auto;
+        }
+        
+        .offer2 .Bigdiv .Subdiv {
+            margin: auto;
+            line-height: 1.2;
+            padding: 40px;
+        }
+        
+        .offer2 .Bigdiv .Subdiv .Halfpart1,
+        .Halfpart2,
+        .Halfpart3,
+        .Halfpart4 {
+            width: 95%;
+            margin: auto;
+            padding: 20px;
+        }
+        
+        .offer2 .Bigdiv .Subdiv .Halfpart1 {
+            margin-top: 60px;
+        }
+        /* CLASS2*/
+        
+        .offer2 .Bigdiv .Subdiv .Halfpart2 {
+            margin-top: 10%;
+        }
+        /*CLASS3*/
+        
+        .offer2 .Bigdiv .Subdiv .Halfpart3 {
+            margin-top: 11%;
+        }
+        /*CLASS4*/
+        
+        .offer2 .Bigdiv .Subdiv .Halfpart4 {
+            margin-top: 15%;
+        }
+        
+        .offer2 .Bigdiv .Subdiv .partsdiv {
+            width: 33%;
+            float: left;
+        }
+        
+        .offer2 .Bigdiv .Subdiv .partsdiv .offer1 {
+            float: left;
+            font-size: 20px;
+        }
+        
+        .offer2 .Bigdiv .Subdiv .partsdiv .price {
+            margin-left: 55%;
+            font-size: 15px;
+        }
+        
+        .offer2 .Bigdiv .Subdiv .partsdiv .dicptions1 {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        /* end secound section*/
+        /*end page offer*/
+        /*start page GELLARY*/
+        /*start first sec*/
+        
+        .gellary {
+            background-color: rgb(153, 147, 147);
+            background-attachment: fixed;
+            background-size: auto;
+            background-position: center;
+            height: 30vh;
+            overflow: hidden;
+        }
+        
+        .gellary .half8 {
+            text-align: center;
+            color: aliceblue;
+            margin-top: 60px;
+        }
+        
+        .gellary .half8 h1 {
+            font-size: 40px;
+            margin: 15px 0;
+        }
+        
+        .gellary .half8 p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        /*end frist sec*/
+        /* start secound sec*/
+        
+        .gallary1 {
+            background-color: #fff;
+            background-attachment: fixed;
+            background-size: auto;
+            background-position: center;
+            height: 130vh;
+            overflow: hidden;
+        }
+        
+        .gallary1 .sixphoto {
+            width: 85%;
+            margin: auto;
+        }
+        
+        .gallary1 .sixphoto .thrphoto1 {
+            margin-top: 40px;
+        }
+        
+        .gallary1 .sixphoto .thrphoto2 {
+            margin-top: 80px;
+        }
+        
+        .gallary1 .sixphoto .zft1 {
+            width: 33.333%;
+            padding: 5px;
+            float: left;
+        }
+        /* end secound sec*/
+        /*end page GELLARY*/
+        /*start page contect*/
+        /* start frist sec*/
+        
+        .contact {
+            background-image: url("../image/drew-coffman-1872.jpg");
+            background-position: center;
+            overflow: hidden;
+            height: 50vh;
+        }
+        
+        .contact .half11 {
+            text-align: center;
+            color: aliceblue;
+            margin-top: 10%;
+        }
+        
+        .Contact .half11 span {
+            padding: 0 14px;
+            color: #403d38;
+        }
+        
+        .contact .half11 .txt12 p {
+            font-size: 40px;
+            line-height: 1.5;
+        }
+        
+        .contact .half11 .txt12 h1 {
+            font-size: 75px;
+            margin: 15px 0;
+        }
+        /* end frist sec*/
+        /* start secound sec*/
+        
+        .Details {
+            background-color: #fff;
+            background-attachment: fixed;
+            background-size: auto;
+            background-position: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .Details .formandinf {
+            width: 95%;
+            margin: auto;
+            margin-top: 30px;
+            padding: 10px 30px;
+        }
+        
+        .Details .forms {
+            width: 60%;
+            margin: auto;
+            margin-top: 30px;
+            float: left;
+            padding: 20px 50px;
+        }
+        
+        .Details .formandinf .forms .tit {
+            font-size: 40px;
+        }
+        
+        .Details .formandinf .forms .form .ty {
+            width: 40%;
+            padding: 12px 25px;
+            margin: 40px 5px;
+            box-sizing: border-box;
+            border: 2px solid #686868;
+            float: left;
+        }
+        
+        .Details .formandinf .forms .form .sub {
+            width: 80%;
+            padding: 12px 25px;
+            margin: 20px 5px;
+            box-sizing: border-box;
+            border: 2px solid #686868;
+        }
+        
+        .Details .formandinf .forms .form textarea {
+            width: 80%;
+            height: 250px;
+            margin-top: 20px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid #686868;
+        }
+        
+        .Details .formandinf .forms .buttonsend {
+            background-color: #8e7754;
+            color: #fff;
+            font-size: 10px;
+            padding: 10px;
+            margin: 15px;
+            border-radius: 7px;
+            width: 15%;
+            font-size: 22px;
+            text-align: center;
+        }
+        
+        .Details .inf {
+            width: 40%;
+            margin: auto;
+            margin-top: 30px;
+            float: left;
+            padding: 20px 10px;
+        }
+        
+        .Details .inf .fiv .taxt111 {
+            padding: 8px;
+            line-height: 1.8;
+        }
+        
+        .Details .inf .fiv .taxt111 .titltinfor {
+            font-size: 50px;
+        }
+        
+        .Details .inf .fiv .taxt111 .parag {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        
+        .Details .inf .fiv .taxt111 .detils {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        
+        .Details .inf .fiv .taxt222 {
+            margin-top: 20px;
+            line-height: 2.8;
+        }
+        
+        .Details .inf .fiv .taxt222 .icons222 i {
+            font-size: 30px;
+            display: initial;
+        }
+        
+        .Details .inf .fiv .taxt222 .icons222 .ex {
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        /* end secound sec*/
+        /*end page contect*/
+        
+        @media (max-width:600px) {
+            .home {
+                background-attachment: unset;
+                background-position: top;
+                height: 40vh;
+                text-align: center;
+            }
+            .home .all {
+                margin-top: 20px;
+            }
+            .home .all p {
+                font-size: 12px;
+            }
+            .home .all h1 {
+                font-size: 30px;
+            }
+            .home .all .btn {
+                padding: 4px 10px;
+                width: auto;
+                font-size: 15px;
+            }
+            .who .two {
+                margin: 15px 0;
+            }
+            .who .two .word {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            .who .two .word .part1 h2 {
+                font-size: 30px;
+            }
+            .who .two .word .part1 p {
+                font-size: 14px;
+            }
+            .who .two .word .part2 ul {
+                font-size: 12px;
+            }
+        }
